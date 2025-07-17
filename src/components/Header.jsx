@@ -27,10 +27,10 @@ const Header = () => {
             className="bg-[#0b0b0b] text-[#929292] border-none m-1 rounded pl-3 py-1 text-sm w-[300px] placeholder:text-xs focus:outline-none focus:ring-0"
           />
         </div>
-        <div>
+        <div className="hidden">
           <FontAwesomeIcon icon={faSun} style={{ color: "orange" }} className="ml-7 cursor-pointer" />
         </div>
-        <div className="hidden">
+        <div className="">
           <FontAwesomeIcon icon={faMoon} style={{ color: "purple" }} className="ml-7 cursor-pointer"/>
         </div>
       </div>
